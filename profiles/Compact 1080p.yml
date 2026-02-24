@@ -59,6 +59,8 @@ qualities:
   name: WEBRip-1080p
 - id: 10
   name: Bluray-1080p
+- id: 12
+  name: HDTV-1080p
 upgrade_until:
   id: 10
   name: Bluray-1080p
