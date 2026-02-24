@@ -12,32 +12,32 @@ custom_formats:
   score: 800
 - name: Dolby Digital
   score: 600
-- name: VFF
-  score: 200
-- name: VFO
-  score: 200
 - name: x265
-  score: 200
-- name: 6.1 Surround
-  score: 150
+  score: 500
+- name: VFF
+  score: 350
+- name: 5.1 Surround
+  score: 300
+- name: VFO
+  score: 250
 - name: VFI
+  score: 200
+- name: 7.1 Surround
+  score: 180
+- name: VF2
+  score: 150
+- name: 6.1 Surround
   score: 150
 - name: 10bit
   score: 120
-- name: 5.1 Surround
-  score: 100
-- name: VF2
-  score: 100
-- name: 7.1 Surround
-  score: 50
 - name: 2.0 Stereo
-  score: -200
-- name: 1.0 Mono
-  score: -500
-- name: 3.0 Sound
-  score: -500
+  score: -150
 - name: 4.0 Sound
-  score: -500
+  score: -250
+- name: 3.0 Sound
+  score: -300
+- name: 1.0 Mono
+  score: -400
 - name: Language Not Original
   score: -1000
 - name: Language Not French
