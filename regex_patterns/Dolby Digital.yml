@@ -1,0 +1,6 @@
+name: Dolby Digital
+pattern: \bDD[^a-z+]|(?<!e-)\b(ac-?3)\b
+description: ''
+tags:
+- audio
+tests: []

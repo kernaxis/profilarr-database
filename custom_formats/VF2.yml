@@ -1,0 +1,11 @@
+name: VF2
+description: ''
+tags:
+- encoding
+conditions:
+- name: VF2
+  type: release_title
+  required: true
+  negate: false
+  pattern: VF2
+tests: []

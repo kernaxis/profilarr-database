@@ -1,0 +1,11 @@
+name: VFO
+description: ''
+tags:
+- encoding
+conditions:
+- name: VFO
+  type: release_title
+  required: true
+  negate: false
+  pattern: VFO
+tests: []

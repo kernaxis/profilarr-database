@@ -1,0 +1,11 @@
+name: VFI
+description: ''
+tags:
+- encoding
+conditions:
+- name: VFI
+  type: release_title
+  required: true
+  negate: false
+  pattern: VFI
+tests: []

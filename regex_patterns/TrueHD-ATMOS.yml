@@ -1,0 +1,6 @@
+name: TrueHD-ATMOS
+pattern: \b(True[ .-]?HD|ATMOS|DDPA)(\b|\d)
+description: ''
+tags:
+- audio
+tests: []

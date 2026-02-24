@@ -8,6 +8,26 @@ minScoreIncrement: 0
 custom_formats:
 - name: x265
   score: 200
+- name: VFF
+  score: 200
+- name: VFO
+  score: 200
+- name: VFI
+  score: 150
+- name: VF2
+  score: 100
+- name: 5.1 Surround
+  score: 100
+- name: 7.1 Surround
+  score: 50
+- name: 2.0 Stereo
+  score: -200
+- name: 1.0 Mono
+  score: -500
+- name: 3.0 Sound
+  score: -500
+- name: 4.0 Sound
+  score: -500
 - name: Language Not French
   score: -10000
 - name: DTS

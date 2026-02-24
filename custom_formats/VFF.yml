@@ -1,0 +1,11 @@
+name: VFF
+description: ''
+tags:
+- encoding
+conditions:
+- name: VFF
+  type: release_title
+  required: true
+  negate: false
+  pattern: VFF
+tests: []

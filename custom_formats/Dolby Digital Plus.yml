@@ -1,0 +1,37 @@
+name: Dolby Digital Plus
+description: '[Custom format from TRaSH-Guides.](https://trash-guides.info/Radarr/Radarr-collection-of-custom-formats#ddplus)'
+tags:
+- Radarr
+- Release Title
+conditions:
+- name: Dolby Digital Plus
+  negate: false
+  required: true
+  type: release_title
+  pattern: Dolby Digital Plus
+- name: Not TrueHD-ATMOS
+  negate: true
+  required: true
+  type: release_title
+  pattern: TrueHD-ATMOS
+- name: Not DTS
+  negate: true
+  required: true
+  type: release_title
+  pattern: DTS
+- name: Not FLAC
+  negate: true
+  required: true
+  type: release_title
+  pattern: FLAC
+- name: Not AAC
+  negate: true
+  required: true
+  type: release_title
+  pattern: AAC
+- name: Not PCM
+  negate: true
+  required: true
+  type: release_title
+  pattern: PCM
+tests: []
