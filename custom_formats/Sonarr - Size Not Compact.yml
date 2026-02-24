@@ -1,4 +1,4 @@
-name: Size Not Compact
+name: Sonarr - Size Not Compact
 description: ''
 tags:
 - size
@@ -8,7 +8,7 @@ conditions:
   required: true
   negate: true
   minSize: '0'
-  maxSize: '6'
+  maxSize: '2'
   minSizeUnit: GB
   maxSizeUnit: GB
 tests: []
