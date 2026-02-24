@@ -1,5 +1,5 @@
 name: VF2
-pattern: \b(VF2|(VF(F|Q)[ .]VF(F|Q)))\b
+pattern: \bVF2\b|(?=.*\bVFF\b)(?=.*\bVFQ\b)
 description: ''
 tags:
 - language

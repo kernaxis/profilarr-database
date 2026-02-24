@@ -13,4 +13,22 @@ conditions:
   required: true
   negate: true
   pattern: VF2
-tests: []
+tests:
+- conditionResults:
+  - matches: true
+    name: VFQ
+    negate: false
+    pattern: VFQ
+    required: true
+    type: release_title
+  - matches: true
+    name: No VF2
+    negate: true
+    pattern: VF2
+    required: true
+    type: release_title
+  expected: false
+  id: 1
+  input: Release Name (2004) MULTi (VFF-VO-VFQ) [1080p] MULTi x264
+  lastRun: '2026-02-24T16:12:01.190590'
+  passes: true
