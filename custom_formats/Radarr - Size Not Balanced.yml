@@ -1,0 +1,14 @@
+name: Radarr - Size Not Balanced
+description: ''
+tags:
+- size
+conditions:
+- name: Balanced Size
+  type: size
+  required: true
+  negate: true
+  minSize: '0'
+  maxSize: '8'
+  minSizeUnit: GB
+  maxSizeUnit: GB
+tests: []

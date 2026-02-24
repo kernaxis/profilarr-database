@@ -1,4 +1,4 @@
-name: Compact 1080p
+name: Cinematic
 description: ''
 tags: []
 upgradesAllowed: false
@@ -47,12 +47,20 @@ custom_formats:
 - name: French Canadian
   score: -100000
 custom_formats_radarr:
-- name: Radarr - Size Not Compact
+- name: Radarr - Size Compact
+  score: 200
+- name: Radarr - Size Not Balanced
   score: -1000
 custom_formats_sonarr:
-- name: Sonarr - Size Not Compact
+- name: Sonarr - Size Compact
+  score: 200
+- name: Sonarr - Size Not Balanced
   score: -1000
 qualities:
+- id: 5
+  name: WEBDL-2160p
+- id: 6
+  name: WEBRip-2160p
 - id: 9
   name: WEBDL-1080p
 - id: 11
@@ -60,7 +68,7 @@ qualities:
 - id: 10
   name: Bluray-1080p
 upgrade_until:
-  id: 10
-  name: Bluray-1080p
-  description: 1080p Blu-ray video encoded with lossy compression
+  id: 5
+  name: WEBDL-2160p
+  description: ''
 language: must_original
