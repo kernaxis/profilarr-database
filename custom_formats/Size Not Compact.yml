@@ -1,0 +1,14 @@
+name: Size Not Compact
+description: ''
+tags:
+- size
+conditions:
+- name: Not Compact Size
+  type: size
+  required: true
+  negate: true
+  minSize: '0'
+  maxSize: '6'
+  minSizeUnit: GB
+  maxSizeUnit: GB
+tests: []
