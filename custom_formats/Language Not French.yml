@@ -1,0 +1,12 @@
+name: Language Not French
+description: ''
+tags:
+- language
+conditions:
+- name: not Original French
+  type: language
+  required: false
+  negate: true
+  language: french
+  exceptLanguage: false
+tests: []

@@ -1,0 +1,7 @@
+name: DTS
+pattern: \bDTS(\b|\d)
+description: ''
+tags:
+- audio
+- dts
+tests: []

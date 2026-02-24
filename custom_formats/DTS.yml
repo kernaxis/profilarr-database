@@ -1,0 +1,13 @@
+name: DTS
+description: '
+tags:
+- audio
+- dts
+- release title
+conditions:
+- name: DTS
+  negate: false
+  required: true
+  type: release_title
+  pattern: DTS
+tests: []

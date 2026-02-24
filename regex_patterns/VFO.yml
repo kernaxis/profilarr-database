@@ -1,0 +1,6 @@
+name: VFO
+pattern: \b(VOF)\b
+description: ''
+tags:
+- language
+tests: []

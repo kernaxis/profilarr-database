@@ -1,0 +1,6 @@
+name: VFF
+pattern: \b(TRUEFRENCH|VFF)\b
+description: French audio
+tags:
+- language
+tests: []

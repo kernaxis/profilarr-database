@@ -1,0 +1,16 @@
+name: French Canadian
+description: ''
+tags:
+- language
+conditions:
+- name: VFQ
+  negate: false
+  pattern: VFQ
+  required: true
+  type: release_title
+- name: No VF2
+  type: release_title
+  required: true
+  negate: true
+  pattern: VF2
+tests: []

@@ -1,0 +1,6 @@
+name: VFI
+pattern: \b(VFI)\b
+description: French international audio
+tags:
+- language
+tests: []
