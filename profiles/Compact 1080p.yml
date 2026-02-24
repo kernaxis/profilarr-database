@@ -1,0 +1,27 @@
+name: Compact 1080p
+description: ''
+tags: []
+upgradesAllowed: false
+minCustomFormatScore: 0
+upgradeUntilScore: 0
+minScoreIncrement: 0
+custom_formats:
+- name: x265
+  score: 200
+- name: Language Not French
+  score: -10000
+- name: French Canadian
+  score: -100000
+custom_formats_radarr: []
+custom_formats_sonarr: []
+qualities:
+- id: 9
+  name: WEBDL-1080p
+- id: 11
+  name: WEBRip-1080p
+- id: 10
+  name: Bluray-1080p
+upgrade_until:
+  id: 10
+  name: Bluray-1080p
+language: must_original
