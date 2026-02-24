@@ -10,6 +10,8 @@ custom_formats:
   score: 200
 - name: Language Not French
   score: -10000
+- name: DTS
+  score: -100000
 - name: French Canadian
   score: -100000
 custom_formats_radarr: []

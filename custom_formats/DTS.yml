@@ -3,7 +3,6 @@ description: '
 tags:
 - audio
 - dts
-- release title
 conditions:
 - name: DTS
   negate: false
