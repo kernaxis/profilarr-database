@@ -1,0 +1,6 @@
+name: Team Amen
+pattern: \b(Amen)\b
+description: ''
+tags:
+- release group
+tests: []

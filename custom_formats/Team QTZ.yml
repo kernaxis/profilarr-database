@@ -1,0 +1,11 @@
+name: Team QTZ
+description: ''
+tags:
+- release group
+conditions:
+- name: Team QTZ
+  type: release_group
+  required: true
+  negate: false
+  pattern: Team QTZ
+tests: []

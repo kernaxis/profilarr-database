@@ -1,0 +1,11 @@
+name: Team Amen
+description: ''
+tags:
+- release group
+conditions:
+- name: Team Amen
+  type: release_group
+  required: true
+  negate: false
+  pattern: Team Amen
+tests: []

@@ -1,0 +1,11 @@
+name: Team TyHD
+description: ''
+tags:
+- release group
+conditions:
+- name: Team TyHD
+  type: release_group
+  required: true
+  negate: false
+  pattern: Team TyHD
+tests: []

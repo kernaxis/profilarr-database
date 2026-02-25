@@ -1,0 +1,6 @@
+name: Team QTZ
+pattern: \b(QTZ)\b
+description: ''
+tags:
+- release group
+tests: []

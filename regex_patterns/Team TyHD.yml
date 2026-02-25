@@ -1,0 +1,6 @@
+name: Team TyHD
+pattern: \b(TyHD)\b
+description: ''
+tags:
+- release group
+tests: []
