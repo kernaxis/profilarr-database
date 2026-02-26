@@ -60,14 +60,14 @@ custom_formats_radarr:
 - name: Radarr - Size Compact
   score: 200
 - name: Radarr - Size Not Balanced
-  score: -1000
+  score: -10000
 - name: Special Edition
   score: 100
 custom_formats_sonarr:
 - name: Sonarr - Size Compact
   score: 200
 - name: Sonarr - Size Not Balanced
-  score: -1000
+  score: -10000
 qualities:
 - id: 5
   name: WEBDL-2160p
