@@ -1,0 +1,11 @@
+name: OPUS
+description: ''
+tags:
+- audio
+conditions:
+- name: OPUS
+  negate: false
+  required: true
+  type: release_title
+  pattern: \bOPUS(\b|\d)
+tests: []
