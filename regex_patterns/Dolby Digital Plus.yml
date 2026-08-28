@@ -1,6 +1,0 @@
-name: Dolby Digital Plus
-pattern: \bDD[P+](?!A)|\b(e[-_. ]?ac-?3)\b
-description: ''
-tags:
-- audio
-tests: []

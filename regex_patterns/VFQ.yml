@@ -1,6 +1,0 @@
-name: VFQ
-pattern: \b(VFQ|\d{3,4}p[ .]CAN|(?<=MULTi[ .])FR(A|ENCH))\b
-description: ''
-tags:
-- language
-tests: []

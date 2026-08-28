@@ -1,0 +1,18 @@
+{
+  "name": "kernaxis",
+  "version": "2.0.0",
+  "description": "Base Kernaxis pour Profilarr v2",
+  "arr_types": ["radarr", "sonarr"],
+  "dependencies": {
+    "https://github.com/Dictionarry-Hub/schema": "1.1.0"
+  },
+  "authors": [
+    {
+      "name": "Kernaxis"
+    }
+  ],
+  "repository": "https://github.com/kernaxis/profilarr-database",
+  "profilarr": {
+    "minimum_version": "2.2.0"
+  }
+}

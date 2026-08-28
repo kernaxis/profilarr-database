@@ -1,6 +1,0 @@
-name: MULTI
-pattern: \bMULTI\b
-description: Multi audio
-tags:
-- language
-tests: []

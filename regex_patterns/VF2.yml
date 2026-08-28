@@ -1,6 +1,0 @@
-name: VF2
-pattern: \bVF2\b|(?=.*\bVFF\b)(?=.*\bVFQ\b)
-description: ''
-tags:
-- language
-tests: []
